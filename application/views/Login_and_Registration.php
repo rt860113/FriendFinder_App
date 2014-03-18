@@ -12,6 +12,7 @@
 			<label>Last Name:</label><input type='text' name='last_name'><br>
 			<label>Email:</label><input type='email' name='email'><br>	
 			<label>Password:</label><input type='password' name='password'><br>	
+			<input type='submit' name='Register'>
 		</form>
 	</div>
 	<div>
@@ -19,6 +20,7 @@
 		<form action="<?php echo base_url('/FriendFinder/log_in')?>" method='post'>
 			<label>Email:</label><input type='email' name='email'><br>	
 			<label>Password:</label><input type='password' name='password'><br>	
+			<input type='submit' name='Login'>
 		</form>
 	</div>
 	
